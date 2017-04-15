@@ -1,0 +1,49 @@
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.nav {
+    background-color: #f70707;
+    color: #f9e5f0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: fixed;
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    overflow: auto; 
+}
+
+.nav li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10%;
+}
+.nav ul{
+    padding: 0px;
+}
+.nav a {
+    color: black;
+    text-decoration: none; 
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: -30px;
+    margin-left: -20px;
+    padding-top: 0px;
+}
+
+#active {
+    color: #f7f7f7; 
+}
+
+footer {
+    color: #f9e5f0;
+    background-color: #f70707;
+}

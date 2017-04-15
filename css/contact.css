@@ -1,0 +1,63 @@
+body {
+    font-family: 'Didact Gothic', sans-serif;
+   	padding-top: 90px;
+    float: left;
+    text-align: center;
+}
+
+.nav {
+    background-color: #f70707;
+    color: f9e5f0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: fixed;
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    overflow: auto; 
+}
+
+.nav li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10%;
+}
+.nav ul{
+    padding: 0px;
+}
+.nav a {
+    color: black;
+    text-decoration: none; 
+}
+
+form {
+	 width: 20%;
+	 vertical-align: top;
+	 min-width: 200px;
+}
+
+img {
+    width: 100%;
+    
+}
+
+.slicetomeet {
+    width: 60%;
+
+}
+
+.slicetomeet, form {
+    display: inline-block;
+}
+
+#active {
+    color: #f7f7f7; 
+}
+
+footer {
+    color: #f9e5f0;
+    background-color: #f70707;
+}
+

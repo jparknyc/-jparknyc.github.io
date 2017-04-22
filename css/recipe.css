@@ -1,3 +1,6 @@
+/* I had to declare margin as 0px in order to get rid of the white 
+space on the left and right sides of the image*/
+
 body {
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;

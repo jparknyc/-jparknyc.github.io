@@ -1,7 +1,11 @@
+/* I had to declare margin as 0px in order to get rid of the white 
+space on the left and right sides of the image*/
+
 body {
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     padding-top: 70px;
+    margin: 0px;
 }
 
 .nav {
@@ -46,4 +50,5 @@ img {
 footer {
     color: #f9e5f0;
     background-color: #f70707;
+    margin: 0px;
 }

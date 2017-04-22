@@ -1,9 +1,14 @@
+/* I had to declare margin as 0px in order to get rid of the white 
+space on the left and right sides of the image*/
+
 body {
     font-family: 'Didact Gothic', sans-serif;
    	padding-top: 90px;
     float: left;
     text-align: center;
     width: 100%;
+    margin: 0px;
+    
 }
 
 .nav {
@@ -48,7 +53,7 @@ img {
     width: 60%;
 
 }
-
+/* Used inline block to have the input form section and image side by side*/
 .slicetomeet, form {
     display: inline-block;
 }

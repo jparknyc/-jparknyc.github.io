@@ -13,7 +13,7 @@ body {
 
 .nav {
     background-color: #f70707;
-    color: f9e5f0;
+    color: #f9e5f0;
     font-size: 20px;
     text-align: center;
     padding-top: 5px;
@@ -24,7 +24,7 @@ body {
     right: 0px;
     overflow: auto; 
 }
-
+/* Used inline block to have the navigation bar options side by side at the top instead of aligning downwards*/
 .nav li {
     display: inline-block;
     margin-bottom: 10px;
@@ -43,7 +43,7 @@ form {
 	 vertical-align: top;
 	 min-width: 200px;
 }
-
+/* Set the width and height at 100% to make the image responsive to the user*/
 img {
     width: 100%;
     
@@ -57,13 +57,17 @@ img {
 .slicetomeet, form {
     display: inline-block;
 }
-
+/* "Contact Us" is white and active on this page */
 #active {
     color: #f7f7f7; 
 }
-
+/* I chose this background color to match the navigation bar */
 footer {
     color: #f9e5f0;
     background-color: #f70707;
+}
+
+form {
+    padding-top: 50px;
 }
 

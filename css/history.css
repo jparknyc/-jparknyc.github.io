@@ -21,7 +21,7 @@ body {
     right: 0px;
     overflow: auto; 
 }
-
+/* Used inline block to have the navigation bar options side by side at the top instead of aligning downwards*/
 .nav li {
     display: inline-block;
     margin-bottom: 10px;
@@ -34,7 +34,7 @@ body {
     color: black;
     text-decoration: none; 
 }
-
+/* Set the width and height at 100% to make the image responsive to the user*/
 img {
     width: 100%;
     height: auto;
@@ -42,13 +42,12 @@ img {
     margin-left: -20px;
     padding-top: 0px;
 }
-
+/* "History of Pizza" is white and active on this page */
 #active {
     color: #f7f7f7; 
 }
-
+/* I chose this background color to match the navigation bar */
 footer {
     color: #f9e5f0;
     background-color: #f70707;
-    margin: 0px;
 }

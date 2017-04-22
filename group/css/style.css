@@ -1,0 +1,80 @@
+/*We found our color palette on the website www.colorhunt.co*/
+
+body {
+    font-family: 'Arbutus Slab', serif;
+    background-color: #FAFAFA;
+    color: #543A3a;
+}
+
+.nav {
+    background-color: #C2CFD8;
+    text-align: center;
+    position: fixed;
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    padding-top: 6px;
+    padding-left: 10px;
+    overflow: auto; 
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10%;
+}
+.nav ul{
+    padding: 0px;
+}
+.nav a {
+    color: #000000;
+    text-decoration: none; 
+}
+
+/*This is for the images on the home page.*/
+img {
+    display: inline-block;
+    width: 500px;
+    height: 375px;
+    border: 3px solid #C2CFD8;
+    
+}
+
+#active {
+    color: #FFFFFF; 
+}
+
+/*Since we have a fixed navigation, we needed to add margin to the top of our page content. .main div is the contact form on the contact page.*/
+h1, .main
+{
+    margin-top: 100px;
+}
+
+/*The home page images are inside two divs (.left and .right) and the CSS instructs these divs to float left. These two divs are inside another div (.center), so we can center these images. We had to create another div (.clear) below the .left and .right divs and instruct .clear to clear:both in the CSS, so that the images will sit below the fixed navigation.*/
+.left, .right {
+    float: left;
+}
+
+.left {
+    margin-right: 5px;
+}
+
+.center {
+    width: 1025px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.clear {clear:both;}
+
+/*".figure" refers to the images on the individual food pages.*/
+h1, h2, .figure {
+    text-align: center;
+}
+
+footer {
+    padding-top: 100px;
+    font-size: 11px;
+}
